@@ -39,6 +39,13 @@ This is a cheatsheet for Docker commands and concepts.
 - `docker rm CONTAINER_ID` - Remove a container.
 - `docker logs CONTAINER_ID` - View container logs.
 
+# Using CONTAINER_NAME
+- `docker stop CONTAINER_NAME` - Stop a running container using its name.
+- `docker start CONTAINER_NAME` - Start a stopped container using its name.
+- `docker restart CONTAINER_NAME` - Restart a container using its name.
+- `docker rm CONTAINER_NAME` - Remove a container using its name.
+- `docker logs CONTAINER_NAME` - View container logs using its name.
+
 ## Docker Compose
 
 - `docker-compose up` - Start services defined in a `docker-compose.yml`.
