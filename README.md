@@ -30,7 +30,7 @@ This is a cheatsheet for Docker commands and concepts.
 
 ## Containers
 
-- `docker run --name CONTAINER_NAME IMAGE_NAME` - Run a container from an image with a custom name.
+- `docker run --name CONTAINER_NAME IMAGE_NAME` - Automatically creates container & run a container from an image with a custom name.
 - `docker ps` - List running containers.
 - `docker ps -a` - List all containers (running and stopped).
 - `docker stop CONTAINER_ID` - Stop a running container.
