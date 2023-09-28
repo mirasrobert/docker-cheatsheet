@@ -48,7 +48,7 @@ This is a cheatsheet for Docker commands and concepts.
 
 ## Docker Compose
 
-- `docker-compose up` - Start services defined in a `docker-compose.yml`.
+- `docker-compose up -d` - Start services defined in a `docker-compose.yml` if docker-compose is already build.
 - `docker-compose down` - Stop and remove containers defined in a `docker-compose.yml`.
 - `docker-compose build` - Build services defined in a `docker-compose.yml`.
 - `docker-compose ps` - List containers managed by Docker Compose.
