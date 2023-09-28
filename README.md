@@ -52,7 +52,7 @@ This is a cheatsheet for Docker commands and concepts.
 - `docker-compose down` - Stop and remove containers defined in a `docker-compose.yml`.
 - `docker-compose build` - Build services defined in a `docker-compose.yml`.
 - `docker-compose ps` - List containers managed by Docker Compose.
-- `docker-compose run -rm [container_name] [command]` - Run a specific container in docker-compose.yml
+- `docker-compose run --rm [container_name] [command]` - Run a specific container in docker-compose.yml
 
 ## Conclusion
 
